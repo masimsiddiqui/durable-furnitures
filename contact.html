@@ -976,12 +976,12 @@
 
             <label for="email" class="form-label">Email ID</label>
             <input
-              type="text"
               class="form-control mb-2"
               id="email"
               type="email"
               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
               title="Please Enter a Valid Email Address."
+              required
             />
 
             <label for="message" class="form-label">Enter your message</label>
@@ -990,6 +990,7 @@
               class="form-control form-control-message mb-2"
               id="message"
               rows="3"
+              required
             ></textarea>
             <input
               type="submit"
